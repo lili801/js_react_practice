@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Events Practice</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>JavaScript Events Practice</h1>
+
+        <p id="status">Interact with the page 👇</p>
+
+
+        <!-- ================= CLICK ================= -->
+
+        <section>
+            <h2>1. Click Event</h2>
+
+            <button id="clickBtn">
+                Click Me
+            </button>
+
+            <p id="clickResult"></p>
+        </section>
+
+
+        <!-- ================= DOUBLE CLICK ================= -->
+
+        <section>
+            <h2>2. Double Click</h2>
+
+            <button id="doubleBtn">
+                Double Click Me
+            </button>
+
+            <p id="doubleResult"></p>
+        </section>
+
+
+        <!-- ================= MOUSE EVENTS ================= -->
+
+        <section id="mouseBox">
+
+            <h2>3. Mouse Events</h2>
+
+            <p>Move your mouse inside this box</p>
+
+        </section>
+
+
+        <!-- ================= KEYBOARD ================= -->
+
+        <section>
+
+            <h2>4. Keyboard Events</h2>
+
+            <input
+                type="text"
+                id="nameInput"
+                placeholder="Type something..."
+            >
+
+            <p id="keyResult"></p>
+
+        </section>
+
+
+        <!-- ================= INPUT ================= -->
+
+        <section>
+
+            <h2>5. Input Event</h2>
+
+            <input
+                type="text"
+                id="liveInput"
+                placeholder="Type here..."
+            >
+
+            <p>
+                You typed:
+                <span id="liveResult"></span>
+            </p>
+
+        </section>
+
+
+        <!-- ================= CHANGE ================= -->
+
+        <section>
+
+            <h2>6. Change Event</h2>
+
+            <select id="course">
+
+                <option value="">
+                    Select course
+                </option>
+
+                <option value="MCA">
+                    MCA
+                </option>
+
+                <option value="BCA">
+                    BCA
+                </option>
+
+                <option value="BTech">
+                    BTech
+                </option>
+
+            </select>
+
+            <p id="courseResult"></p>
+
+        </section>
+
+
+        <!-- ================= FORM ================= -->
+
+        <section>
+
+            <h2>7. Form Submit</h2>
+
+            <form id="myForm">
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Enter name"
+                >
+
+                <button type="submit">
+                    Submit
+                </button>
+
+            </form>
+
+            <p id="formResult"></p>
+
+        </section>
+
+
+        <!-- ================= FOCUS / BLUR ================= -->
+
+        <section>
+
+            <h2>8. Focus & Blur</h2>
+
+            <input
+                type="text"
+                id="focusInput"
+                placeholder="Click inside me"
+            >
+
+            <p id="focusResult"></p>
+
+        </section>
+
+
+        <!-- ================= EVENT LISTENER ================= -->
+
+        <section>
+
+            <h2>9. Multiple Event Listeners</h2>
+
+            <button id="multiBtn">
+                Click Me
+            </button>
+
+            <p id="multiResult"></p>
+
+        </section>
+
+
+        <!-- ================= EVENT OBJECT ================= -->
+
+        <section>
+
+            <h2>10. Event Object</h2>
+
+            <button id="eventObjectBtn">
+                Click Me
+            </button>
+
+            <p id="eventObjectResult"></p>
+
+        </section>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
